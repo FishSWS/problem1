@@ -1,1 +1,11 @@
-测试
+第一题：
+首先定义了一个accumulator的变量赋初值为0，后面while语句中一直进行循环，直到dole为0时跳出循环。while语句循环中，首先判定dole是否为0，不为0时进行下一步计算。(（dole%2==1)?bos:0) 则判定dole%2后余数是否为1，是的话accumulator+bob 否则accumulator+0。 接下来算dole/2以及bob*2。 不管输入的bob和dole数值如何，最后的结果accumulator=bob*dole。
+
+第二题：
+返回值为1.
+
+第三题：for循环语句里的number应该>=0才对，不然的话当输入0时由于number不成立直接结束循环，这时accumulator的值还是没变，还是当时声明时的值1.
+
+第四题：
+
+
