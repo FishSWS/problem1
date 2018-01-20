@@ -7,5 +7,36 @@
 第三题：for循环语句里的number应该>=0才对，不然的话当输入0时由于number不成立直接结束循环，这时accumulator的值还是没变，还是当时声明时的值1.
 
 第四题：
+# include <iostream>
+# include <cstdlib>
+using namespace std;
+ int main()
+ {
+     int i;
+     double x,y;
+     double q=0;
+     double m,n;
+     double s;
+     cout<<"输入你想扔的次数:"<<endl;
+     cin>>i;
+     for(int c=0;c<i;c++)
+     {
+          m=(int)(20000.0*rand()/(RAND_MAX+0));
+          n=(int)(20000.0*rand()/(RAND_MAX+0));
+         cout<<m<<" "<<n<<endl;
+         x=m/10000;
+         y=n/10000;
+         cout<<x<<" "<<y<<endl;
+         s=(x-1)*(x-1)+(y-1)*(y-1);
+         cout<<s<<endl;
+         if (s<=1)
+             q++;
+     }
+     double sum=(q/i)*4;
+     cout<<sum<<endl;
+     return 0;
+
+ }
+
 
 
