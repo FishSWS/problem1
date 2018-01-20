@@ -6,7 +6,7 @@
 
 第三题：for循环语句里的number应该>=0才对，不然的话当输入0时由于number不成立直接结束循环，这时accumulator的值还是没变，还是当时声明时的值1.
 
-第四题：
+第四题： 这题由于不清楚蒙特卡洛算法以及rand的使用，所以一定程度上只是理解了式子是如何实现的以及蒙特卡洛算法和rand的使用，式子参考了网上的。
 # include <iostream>
 # include <cstdlib>
 using namespace std;
